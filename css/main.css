@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  background-color: #fffefb;
   color: #333;
   font-family: "proxima-nova",Helvetica,sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -37,6 +36,10 @@ body {
   font-weight: bold;
   line-height: 1em;
   margin: 44px 0 10px 0;
+}
+
+#footer {
+  margin-top: 3em;
 }
 
 @media only screen and (max-width: $break1) {
@@ -167,8 +170,8 @@ h4 {
 
 p {
   font-size: 1em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
   line-height: 1.6em;
 }
 
@@ -187,7 +190,7 @@ p code {
 }
 
 li p {
-  margin-top: 0em;
+  margin-top: 0.2em;
   margin-bottom: 0.2;
 }
 
@@ -203,7 +206,7 @@ blockquote {
   border-left: 6px solid #333;
   font-style: italic;
   color: #555;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 1em auto;
   text-align: justify;
 }
 
@@ -969,4 +972,39 @@ ul.listing time a:hover, ul.listing time a:focus, ul.listing time a:active {
     content: " (" attr(href) ") ";
     font-size: 90%
   }
+}
+
+
+/* Contact Me Ribbon */
+
+#contact-me {
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background: #000000;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 80px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px, 10px, 10px, #333;
+    -webkit-box-shadow: #999 1px 1px 4px;
+    box-shadow: #999 1px 1px 4px;
+}
+#contact-me:hover,
+#contact-me:focus,
+#contact-me:active {
+    background: #e22c29
+}
+@media only screen and (max-width: 800px) {
+    #contact-me {
+        display: none
+    }
 }
