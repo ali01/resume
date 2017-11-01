@@ -105,8 +105,8 @@ body {
 }
 
 a:link, a:visited {
-  color: #FF0000;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
@@ -121,12 +121,12 @@ a[rel="tag"] {
 h1,h2,h3,h4 {
   color: #333;
   line-height: 1.2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 h1 a:link, h1 a:visited,h2 a:link, h2 a:visited,h3 a:link, h3 a:visited,
 h4 a:link, h4 a:visited {
-  text-decoration: none
+  text-decoration: underline
 }
 
 h1 a:hover, h1 a:focus, h1 a:active,h2 a:hover, h2 a:focus, h2 a:active,
@@ -136,7 +136,7 @@ h3 a:hover, h3 a:focus, h3 a:active,h4 a:hover, h4 a:focus, h4 a:active {
 
 h1 {
   font-size: 1.8em;
-  margin: .8em 0 .2em 0
+  margin: .8em 0 .2em 0;
 }
 
 h2 {
