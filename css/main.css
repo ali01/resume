@@ -39,7 +39,12 @@ body {
   text-align: center;
   padding-bottom: 1.5em;
   font-size: 17px;
+  font-weight: bold;
   font-family: monospace;
+}
+
+.subtitle .twitter {
+  color: #1da1f2;
 }
 
 #footer {
