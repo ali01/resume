@@ -27,13 +27,19 @@ body {
 }
 
 #header h1 {
-  color: #FF0000;
   border-bottom: none;
-  font-family: "estilo-pro",Palatino,Garamond,Georgia,serif;
-  font-size: 5em;
+  font-family: monospace;
+  font-size: 2.5em;
   font-weight: bold;
   line-height: 1em;
   margin: 44px 0 10px 0;
+}
+
+.subtitle {
+  text-align: center;
+  padding-bottom: 1.5em;
+  font-size: 17px;
+  font-family: monospace;
 }
 
 #footer {
